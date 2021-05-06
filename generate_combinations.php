@@ -1,3 +1,4 @@
+<?php
 function generate_combinations($data, $no_duplicates = false, &$all = [], $group = [], $value = null, $i = 0, $key = null, $currentGroup = null)
     {
         // Create keys of the array -- to disregard any specific labeling
