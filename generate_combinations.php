@@ -7,7 +7,6 @@ function generate_combinations($data, $no_duplicates = false, &$all = [], $group
         // If there is value, Add it to the group
         if (isset($value) === true) {
             $group[$currentGroup] = $value;
-            // array_push($group, $value);
         }
 
         // Check How deep we are into $data -- If is maxed, ther will not be a deeper level
