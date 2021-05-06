@@ -43,9 +43,9 @@ generate_combinations($data, true);
 It will prevent duplicate combinations:
 
 * 3 3 3
-* 3 3 4  -- |
-* 3 3 5     |  THESE ARE THE SAME ...  If the second parameter is set to true, it will not generate " 3 4 3 "
-* 3 4 3  -- | <-- ( will not be outputed)
+* 3 3 4   -- |
+* 3 3 5     
+* (3 4 3)  <-- ( will not be outputed)  This is the same combination as " 3 3 4 " - so it will be skipped.
 * 3 4 4 
 * 3 4 5 
 * 3 5 5
